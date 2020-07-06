@@ -1,5 +1,7 @@
 package com.stayready.assessment1.part1;
 
+import java.util.Arrays;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -67,6 +69,8 @@ public class BasicArrayUtilsTest {
 
         // When
         String[] actual = BasicArrayUtils.reverse(input);
+        //System.out.println(Arrays.toString(input));
+        //System.out.println(Arrays.toString(expected));
 
         // Then
         Assert.assertArrayEquals(expected, actual);
