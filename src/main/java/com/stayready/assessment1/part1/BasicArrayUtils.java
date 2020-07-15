@@ -5,7 +5,6 @@ import java.util.Collections;
 import java.util.Arrays;
 import java.util.List;
 
-import javax.swing.event.ListDataEvent;
 
 public class BasicArrayUtils {
     /**
@@ -48,6 +47,11 @@ public class BasicArrayUtils {
         }
         
         return reversedArray;
+
+
+        //backwords loop from last index 
+        //new empty array that holds reverses
+        //counter that points to index position of the regular count 
     }
 
     /**
